@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35017.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookLibary", "BookLibary", "{9F3539B2-7D49-496D-87D7-397086FE87DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{1DE076E8-3173-461B-9030-5CBD9D245ED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{8A573068-426E-4BB5-9594-EA6AD3A71C49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookLibary.Api", "Api\BookLibary.Api\BookLibary.Api.csproj", "{92F8D64F-0591-4E6A-985A-3A8A8A124652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookLibary.Web", "Web\BookLibary.Web\BookLibary.Web.csproj", "{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çözüm Öğeleri", "Çözüm Öğeleri", "{54D69B3B-E7F3-4306-8220-B31025C2BDD9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F8D64F-0591-4E6A-985A-3A8A8A124652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F8D64F-0591-4E6A-985A-3A8A8A124652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F8D64F-0591-4E6A-985A-3A8A8A124652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F8D64F-0591-4E6A-985A-3A8A8A124652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DE076E8-3173-461B-9030-5CBD9D245ED5} = {9F3539B2-7D49-496D-87D7-397086FE87DD}
+		{8A573068-426E-4BB5-9594-EA6AD3A71C49} = {9F3539B2-7D49-496D-87D7-397086FE87DD}
+		{92F8D64F-0591-4E6A-985A-3A8A8A124652} = {1DE076E8-3173-461B-9030-5CBD9D245ED5}
+		{7C0AD2E2-1436-402F-9EA3-E314EF4598E6} = {8A573068-426E-4BB5-9594-EA6AD3A71C49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA7C0B14-6530-4906-A9ED-851A3E9A5591}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ezApvNc5q1Kjwngqfpd5mwSo30UD9BohGlblI9zSlbU=",
+  "Source": "BookLibary.Api",
+  "BasePath": "_content/BookLibary.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
