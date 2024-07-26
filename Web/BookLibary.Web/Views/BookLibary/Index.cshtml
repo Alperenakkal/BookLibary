@@ -1,5 +1,6 @@
 ﻿@using BookLibary.Web.Dtos
-@model List<ResultBookDto> 
+@model List<ResultBookDto>
+<a asp-controller="BookLibary" asp-action="Create" >Oluştur</a>
 <table class="table">
     <thead>
         <tr>
@@ -31,13 +32,19 @@
                     <td>Var</td>
 
                 }
-                else
+                @if (item.Durum==0)
                 {
                     <td>Yok</td>
                 }
+                @if(item.Durum!=0 && item.Durum != 1)
+                {
+                    <td>@item.Durum</td>    
+                
+                }
+
               <td>
                   <a asp-controller="BookLibary" asp-action="Edit" asp-route-id="@item.Id" >Düzenle</a>
-                    <a asp-controller="BookLibary" asp-action="Edit" asp-route-id="@item.Id">Sil</a>
+                    <a asp-controller="BookLibary" asp-action="Delete" asp-route-id="@item.Id">Sil</a>
               </td>
             </tr>
 

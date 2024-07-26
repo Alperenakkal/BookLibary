@@ -1,27 +1,27 @@
 ﻿@using BookLibary.Web.Dtos
 
-@model GetByIdBookDto
+@model CreateBookDto
 
-<h2>Edit Book</h2>
+<h2>Create Book</h2>
 
-<form method="post" asp-action="Edit">
+<form  asp-action="Create" method="post">
     <div class="form-group">
         <label asp-for="Name" class="control-label"></label>
-        <input asp-for="Name" class="form-control" />
+        <input asp-for="Name" class="form-control" required/>
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="Yazar" class="control-label"></label>
-        <input asp-for="Yazar" class="form-control" />
+        <input asp-for="Yazar" class="form-control" required />
         <span asp-validation-for="Yazar" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label  class="control-label">Durum:</label>
-        <input id="Durum" name="Durum"  value="@Model.Durum" type="checkbox" @(Model.Durum == 1 ? "checked" : "") />
+        <input id="Durum" name="Durum" value="1" type="checkbox"/>
        
     </div>
     <div class="form-group">
-        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="submit" value="Kaydet" class="btn btn-primary" />
     </div>
 
 </form>
