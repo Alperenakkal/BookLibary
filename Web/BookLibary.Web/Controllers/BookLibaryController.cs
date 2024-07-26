@@ -18,5 +18,14 @@ namespace BookLibary.Web.Controllers
 
             return View(value);
         }
+        public async Task<IActionResult> Edit(int id) 
+        {
+            var book = await _services.GetByIdBookAsync(id);
+            
+            return View(book);
+        }
+        public IActionResult Create() { return View(); }
+       
+
     }
 }
