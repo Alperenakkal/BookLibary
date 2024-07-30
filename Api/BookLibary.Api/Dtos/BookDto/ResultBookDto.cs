@@ -1,6 +1,6 @@
-﻿namespace BookLibary.Api.Dtos
+﻿namespace BookLibary.Api.Dtos.BookDto
 {
-    public class GetByIdBookDto
+    public class ResultBookDto
     {
         public int Id { get; set; }
 

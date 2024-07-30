@@ -1,4 +1,4 @@
-﻿namespace BookLibary.Api.Dtos
+﻿namespace BookLibary.Api.Dtos.BookDto
 {
     public class UpdateBookDto
     {

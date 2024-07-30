@@ -4,13 +4,7 @@ namespace BookLibary.Api.Repositories
 {
     public interface IRepository<T> where T : class
     {
-        //Task<List<ResultBookDto>> GetAllBooksAsync();
-
-        //Task<GetByIdBookDto> GetByIdBookAsync(int id);
-
-        //Task CreateBookAsync(CreateBookDto model);
-
-        //Task UpdateBookAsync(UpdateBookDto model);
+      
 
         Task<List<T>> GetAllAsync();
 
@@ -21,6 +15,9 @@ namespace BookLibary.Api.Repositories
         Task UpdateAsync(T entity);
 
         Task DeleteAsync(T entity);
+        Task<T> GetByNameAsync (string name);
+
+        
 
 
 

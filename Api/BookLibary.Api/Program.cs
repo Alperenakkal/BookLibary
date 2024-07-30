@@ -1,14 +1,24 @@
 using BookLibary.Api.Data.Context;
 using BookLibary.Api.Repositories;
 using BookLibary.Api.Services.BookLibary;
+using BookLibary.Api.Services.UserService;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<BookLibaryDbContext>();
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddDbContext<UserLibaryDbContext>();
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(BookRepository<>));
+builder.Services.AddScoped(typeof(IRepository<>),typeof(UserRepository<>));
+
+
+
 
 builder.Services.AddScoped<IBookLibaryServices, BookLibaryServices>();
+builder.Services.AddScoped<IUserServices, UserServices>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

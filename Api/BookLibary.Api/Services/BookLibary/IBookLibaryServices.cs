@@ -1,4 +1,4 @@
-﻿using BookLibary.Api.Dtos;
+﻿using BookLibary.Api.Dtos.BookDto;
 
 namespace BookLibary.Api.Services.BookLibary
 {

@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "BookLibary.Api.Dtos.CreateBookDto",
+        "Type": "BookLibary.Api.Dtos.BookDto.CreateBookDto",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "BookLibary.Api.Dtos.UpdateBookDto",
+        "Type": "BookLibary.Api.Dtos.BookDto.UpdateBookDto",
         "IsRequired": true
       }
     ],
@@ -68,6 +68,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookLibary.Api.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BookLibary.Api.Dtos.UserDto.CreateUserDto",
         "IsRequired": true
       }
     ],

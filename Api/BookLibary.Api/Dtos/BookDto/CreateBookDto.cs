@@ -1,8 +1,8 @@
-﻿namespace BookLibary.Api.Dtos
+﻿namespace BookLibary.Api.Dtos.BookDto
 {
     public class CreateBookDto
     {
-      
+
 
         public string Name { get; set; }
 
