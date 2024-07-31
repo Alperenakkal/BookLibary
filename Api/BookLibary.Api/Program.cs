@@ -1,23 +1,18 @@
 using BookLibary.Api.Data.Context;
+using BookLibary.Api.Models;
 using BookLibary.Api.Repositories;
-using BookLibary.Api.Services.BookLibary;
-using BookLibary.Api.Services.UserService;
+
+using BookLibary.Web.Services.BookLibaryServices;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<BookLibaryDbContext>();
-builder.Services.AddDbContext<UserLibaryDbContext>();
-
-builder.Services.AddScoped(typeof(IRepository<>), typeof(BookRepository<>));
-builder.Services.AddScoped(typeof(IRepository<>),typeof(UserRepository<>));
+builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("MongoSettings"));
+builder.Services.AddSingleton<MongoDbContext>();
 
 
 
-
-builder.Services.AddScoped<IBookLibaryServices, BookLibaryServices>();
-builder.Services.AddScoped<IUserServices, UserServices>();
 
 
 builder.Services.AddControllers();
@@ -26,6 +21,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+// Seed the database with initial data
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

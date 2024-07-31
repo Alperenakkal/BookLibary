@@ -1,6 +1,6 @@
 ﻿namespace BookLibary.Api.Models
 {
-    public class User
+    public class User:IUser
     {
         public int Id { get; set; }
         public string UserName { get; set; }

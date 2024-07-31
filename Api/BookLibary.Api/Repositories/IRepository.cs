@@ -1,8 +1,9 @@
 ﻿using BookLibary.Api.Dtos;
+using BookLibary.Api.Models;
 
 namespace BookLibary.Api.Repositories
 {
-    public interface IRepository<T> where T : class
+    public interface IRepository<T> where T :  class 
     {
       
 
