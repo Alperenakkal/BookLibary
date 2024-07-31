@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "BookLibary.Api.Controllers.UserController",
+    "Method": "GetByName",
+    "RelativePath": "api/User/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
