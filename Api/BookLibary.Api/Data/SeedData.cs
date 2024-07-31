@@ -11,13 +11,14 @@ public static class SeedData
         var context = serviceProvider.GetRequiredService<MongoDbContext>();
 
         // Örnek kullanıcı verisi ekleyerek Users koleksiyonunu oluşturun
-        if (!context.Books.Find(_ => true).Any())
+        if (!context.Users.Find(_ => true).Any())
         {
-            context.Books.InsertOne(new Book
+            context.Users.InsertOne(new User
             {
-                Name = "password",
-                Yazar = "testuser@example.com",
-                Durum = 0
+                UserName = "alperen",
+                FullName = "alperen akal",
+                Password = "12345",
+                Email = "alperen@gmail.com"
             });
         }
 
