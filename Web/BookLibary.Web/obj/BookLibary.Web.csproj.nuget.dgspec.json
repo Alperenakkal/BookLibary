@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {}
+    "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {
+    "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+        "projectUniqueName": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
         "projectName": "BookLibary.Web",
-        "projectPath": "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
-        "packagesPath": "C:\\Users\\merha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\obj\\",
+        "projectPath": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+        "packagesPath": "C:\\Users\\haluk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\merha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\haluk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

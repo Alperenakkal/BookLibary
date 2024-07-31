@@ -1,7 +1,7 @@
 using BookLibary.Api.Data.Context;
 using BookLibary.Api.Models;
 using BookLibary.Api.Repositories;
-
+using BookLibary.Api.Services;
 using BookLibary.Web.Services.BookLibaryServices;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -12,7 +12,8 @@ builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("Mong
 builder.Services.AddSingleton<MongoDbContext>();
 
 
-
+builder.Services.AddScoped<IRepository<Book>, MongoRepositoryBase<Book>>();
+builder.Services.AddScoped<BookService>();
 
 
 builder.Services.AddControllers();
