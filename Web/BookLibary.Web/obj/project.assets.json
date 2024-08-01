@@ -4113,11 +4113,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
       "projectName": "BookLibary.Web",
       "projectPath": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
       "packagesPath": "C:\\Users\\esman\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Web\\BookLibary.Web\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+      "projectName": "BookLibary.Web",
+      "projectPath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+      "packagesPath": "C:\\Users\\merha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\obj\\",
+>>>>>>> 61acbc38aad5510d37032c40c5cea039d871b980
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

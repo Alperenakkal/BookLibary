@@ -4770,11 +4770,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Api\\BookLibary.Api\\BookLibary.Api.csproj",
       "projectName": "BookLibary.Api",
       "projectPath": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Api\\BookLibary.Api\\BookLibary.Api.csproj",
       "packagesPath": "C:\\Users\\esman\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Api\\BookLibary.Api\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Api\\BookLibary.Api\\BookLibary.Api.csproj",
+      "projectName": "BookLibary.Api",
+      "projectPath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Api\\BookLibary.Api\\BookLibary.Api.csproj",
+      "packagesPath": "C:\\Users\\merha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Api\\BookLibary.Api\\obj\\",
+>>>>>>> 61acbc38aad5510d37032c40c5cea039d871b980
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4796,8 +4804,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {
               "projectPath": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Web\\BookLibary.Web\\BookLibary.Web.csproj"
+=======
+            "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {
+              "projectPath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj"
+>>>>>>> 61acbc38aad5510d37032c40c5cea039d871b980
             }
           }
         }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0BQTLss1FtM=",
   "success": true,
   "projectFilePath": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+=======
+  "dgSpecHash": "aY+hVmEkuYs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+>>>>>>> 61acbc38aad5510d37032c40c5cea039d871b980
   "expectedPackageFiles": [
     "C:\\Users\\esman\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\esman\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

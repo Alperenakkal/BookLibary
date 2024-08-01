@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "4NQwX9GVcqQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\esman\\source\\repos\\x\\BookLibary\\Api\\BookLibary.Api\\BookLibary.Api.csproj",
+=======
+  "dgSpecHash": "EYg8Qhn7UHY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Api\\BookLibary.Api\\BookLibary.Api.csproj",
+>>>>>>> 61acbc38aad5510d37032c40c5cea039d871b980
   "expectedPackageFiles": [
     "C:\\Users\\esman\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\esman\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

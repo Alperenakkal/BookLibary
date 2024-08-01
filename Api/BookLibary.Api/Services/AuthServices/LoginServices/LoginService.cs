@@ -13,15 +13,21 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
     public class LoginService : ILoginService
     {
         private readonly IUserRepository<User> _repository;
+<<<<<<< HEAD
         readonly ITokenService _tokenService;
         private string hashPassword;
 
+=======
+        private readonly ITokenService _tokenService;
+        private readonly IHttpContextAccessor _contextAccessor;
+>>>>>>> 61acbc38aad5510d37032c40c5cea039d871b980
 
 
-        public LoginService(IUserRepository<User> repository, ITokenService tokenService)
+        public LoginService(IUserRepository<User> repository, ITokenService tokenService, IHttpContextAccessor contextAccessor)
         {
             _repository = repository;
             _tokenService = tokenService;
+            _contextAccessor = contextAccessor;
         }
 
         public async Task<User> GetByNameAsync(string name)
@@ -51,6 +57,14 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
                 response.AuthenticateResult = true;
                 response.AuthToken = generatedTokenInformation.Token;
                 response.AccessTokenExpireDate = generatedTokenInformation.TokenExpireDate;
+                var cookieOptions = new CookieOptions
+                {
+                    HttpOnly = true,
+                    Expires = generatedTokenInformation.TokenExpireDate
+                };
+                _contextAccessor.HttpContext.Response.Cookies.Append("AuthToken", generatedTokenInformation.Token, cookieOptions);
+
+
             }
             return response;
         }
