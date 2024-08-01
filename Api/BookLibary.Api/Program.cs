@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("MongoSettings"));
 builder.Services.AddSingleton<MongoDbContext>();
-builder.Services.AddScoped<IRepository<User>, LoginRepository>();
+builder.Services.AddScoped<IUserRepository<User>, LoginRepository>();
 
 builder.Services.AddScoped<ILoginService, LoginService>();
 

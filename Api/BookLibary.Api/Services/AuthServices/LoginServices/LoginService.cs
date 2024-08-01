@@ -7,9 +7,9 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
 {
     public class LoginService : ILoginService
     {
-        private readonly IRepository<User> _repository;
+        private readonly IUserRepository<User> _repository;
 
-        public LoginService(IRepository<User> repository)
+        public LoginService(IUserRepository<User> repository)
         {
             _repository = repository;
         }
@@ -18,13 +18,7 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
         {
           
 
-            User user = await _repository.GetByNameAsync(name);
-
-           
-        
-
-            
-
+            User user = await _repository.GetByNameAsync(name); 
             return user;
         }
     }
