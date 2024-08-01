@@ -1,6 +1,9 @@
 ﻿using BookLibary.Api.Dtos;
 using BookLibary.Api.Models;
+using BookLibary.Api.Models.Request.UserRequest;
+using BookLibary.Api.Models.Response.UserResponse;
 using BookLibary.Api.Services.AuthServices.LoginServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,6 +36,14 @@ namespace BookLibary.Api.Controllers
             if (user == null) { return BadRequest("Girmis olduğunuz kullanici adi bilgisi yanlistir"); }
             if (user.Password != model.Password) { return BadRequest("Şifre yanlis"); }
             return Ok("Giris islemi basarili");
+        }
+        [HttpPost("LoginUser")]
+        [AllowAnonymous]
+        public async Task<ActionResult<LoginResponse>> LoginUserAsync([FromBody] LoginRequest request)
+        {
+            var result = await _service.LoginUserAsync(request);
+
+            return result;
         }
 
     }

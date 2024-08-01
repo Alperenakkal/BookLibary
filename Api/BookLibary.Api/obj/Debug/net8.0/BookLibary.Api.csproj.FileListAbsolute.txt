@@ -156,3 +156,4 @@ C:\Users\merha\source\repos\BookLİbary\Api\BookLibary.Api\bin\Debug\net8.0\Book
 C:\Users\merha\source\repos\BookLİbary\Api\BookLibary.Api\bin\Debug\net8.0\BookLibary.Api.staticwebassets.runtime.json
 C:\Users\merha\source\repos\BookLİbary\Api\BookLibary.Api\bin\Debug\net8.0\BookLibary.Web.dll
 C:\Users\merha\source\repos\BookLİbary\Api\BookLibary.Api\bin\Debug\net8.0\BookLibary.Web.pdb
+C:\Users\merha\source\repos\BookLİbary\Api\BookLibary.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

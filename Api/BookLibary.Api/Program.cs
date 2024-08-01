@@ -3,7 +3,7 @@ using BookLibary.Api.Models;
 using BookLibary.Api.Repositories;
 using BookLibary.Api.Services.AuthServices;
 using BookLibary.Api.Services.AuthServices.LoginServices;
-
+using BookLibary.Api.Services.AuthServices.TokenServices;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +14,8 @@ builder.Services.AddSingleton<MongoDbContext>();
 builder.Services.AddScoped<IUserRepository<User>, LoginRepository>();
 
 builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+
 
 
 builder.Services.AddScoped<IRepository<Book>, MongoRepositoryBase<Book>>();

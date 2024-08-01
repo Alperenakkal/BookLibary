@@ -109,5 +109,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookLibary.Api.Controllers.UserController",
+    "Method": "LoginUserAsync",
+    "RelativePath": "api/User/LoginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BookLibary.Api.Models.Request.UserRequest.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookLibary.Api.Models.Response.UserResponse.LoginResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
