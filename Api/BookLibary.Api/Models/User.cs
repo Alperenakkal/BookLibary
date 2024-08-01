@@ -1,11 +1,12 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace BookLibary.Api.Models
 {
     public class User:IUser
     {
         [BsonId]
-        public int Id { get; set; }
+        public ObjectId Id { get; set; }
         [BsonElement("UserName")]
         public string UserName { get; set; }
         [BsonElement("FullName")]
