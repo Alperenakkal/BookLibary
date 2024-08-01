@@ -1,4 +1,4 @@
-﻿
+
 using BookLibary.Api.Dtos.UserDto;
 using BookLibary.Api.Models;
 using BookLibary.Api.Models.Request.UserRequest;
@@ -13,14 +13,9 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
     public class LoginService : ILoginService
     {
         private readonly IUserRepository<User> _repository;
-<<<<<<< HEAD
-        readonly ITokenService _tokenService;
-        private string hashPassword;
-
-=======
         private readonly ITokenService _tokenService;
         private readonly IHttpContextAccessor _contextAccessor;
->>>>>>> 61acbc38aad5510d37032c40c5cea039d871b980
+        private string hashPassword;
 
 
         public LoginService(IUserRepository<User> repository, ITokenService tokenService, IHttpContextAccessor contextAccessor)
@@ -40,17 +35,19 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
 
         public async Task<LoginResponse> LoginUserAsync(LoginRequest request)
         {
-            LoginResponse response = new LoginResponse();
-            SHA1 sha = new SHA1CryptoServiceProvider();
+            
 
+            LoginResponse response = new LoginResponse();
             User user = await _repository.GetByNameAsync(request.Username);
+
+            SHA1 sha = new SHA1CryptoServiceProvider();
+            hashPassword = Convert.ToBase64String(sha.ComputeHash(Encoding.ASCII.GetBytes(user.Password)));
 
             if (string.IsNullOrEmpty(request.Username) && string.IsNullOrEmpty(request.Password))
             {
                 throw new NullReferenceException(nameof(request));
             }
-            hashPassword = Convert.ToBase64String(sha.ComputeHash(Encoding.ASCII.GetBytes(request.Password)));
-            if (request.Username == user.UserName && hashPassword == user.Password)
+            if (request.Username == user.UserName && request.Password == hashPassword)
             {
                 
                 var generatedTokenInformation = await _tokenService.GenerateToken(new GenerateTokenRequest { Username = request.Username });
