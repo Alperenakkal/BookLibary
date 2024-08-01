@@ -1,8 +1,10 @@
-﻿namespace BookLibary.Api.Dtos.UserDto
+﻿using MongoDB.Bson;
+
+namespace BookLibary.Api.Dtos.UserDto
 {
-    public class CreateUserDto
+    public class RegisterDto
     {
-        public int Id { get; set; }
+        public ObjectId Id { get; set; }
         public required string  UserName { get; set; }
 
         public string? FullName { get; set; }
