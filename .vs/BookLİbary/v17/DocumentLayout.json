@@ -1,0 +1,337 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\repositories\\mongorepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\repositories\\mongorepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D69B3B-E7F3-4306-8220-B31025C2BDD9}|\u00C7\u00F6z\u00FCm \u00D6\u011Feleri{54D69B3B-E7F3-4306-8220-B31025C2BDD9}|C:\\Users\\haluk\\source\\aaab\\BookLibary2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{54D69B3B-E7F3-4306-8220-B31025C2BDD9}|\u00C7\u00F6z\u00FCm \u00D6\u011Feleri{54D69B3B-E7F3-4306-8220-B31025C2BDD9}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\haluk\\source\\aaab\\BookLibary2\\.vs\\BookLibary2\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\BookLibary2\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\models\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\models\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}|Web\\BookLibary.Web\\BookLibary.Web.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\web\\booklibary.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}|Web\\BookLibary.Web\\BookLibary.Web.csproj|solutionrelative:web\\booklibary.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}|Web\\BookLibary.Web\\BookLibary.Web.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\web\\booklibary.web\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}|Web\\BookLibary.Web\\BookLibary.Web.csproj|solutionrelative:web\\booklibary.web\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\repositories\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\repositories\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\data\\context\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\data\\context\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\api\\booklibary.api\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92F8D64F-0591-4E6A-985A-3A8A8A124652}|Api\\BookLibary.Api\\BookLibary.Api.csproj|solutionrelative:api\\booklibary.api\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}|Web\\BookLibary.Web\\BookLibary.Web.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\web\\booklibary.web\\migrations\\booklibarydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}|Web\\BookLibary.Web\\BookLibary.Web.csproj|solutionrelative:web\\booklibary.web\\migrations\\booklibarydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}|Web\\BookLibary.Web\\BookLibary.Web.csproj|c:\\users\\haluk\\source\\aaab\\booklibary2\\web\\booklibary.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C0AD2E2-1436-402F-9EA3-E314EF4598E6}|Web\\BookLibary.Web\\BookLibary.Web.csproj|solutionrelative:web\\booklibary.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentLayout.json",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\.vs\\BookLibary2\\v17\\DocumentLayout.json",
+              "RelativeDocumentMoniker": ".vs\\BookLibary2\\v17\\DocumentLayout.json",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\.vs\\BookLibary2\\v17\\DocumentLayout.json",
+              "RelativeToolTip": ".vs\\BookLibary2\\v17\\DocumentLayout.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-01T06:24:34.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-01T06:23:47.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:29:57.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Repositories\\MongoRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Repositories\\MongoRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Repositories\\MongoRepositoryBase.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Repositories\\MongoRepositoryBase.cs",
+              "ViewState": "AQIAAPMAAAAAAAAAAAAowBIBAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:29:41.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Program.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:10:27.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Repositories\\Result.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Repositories\\Result.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Repositories\\Result.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Repositories\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:32:31.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwCgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:12:38.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Web\\BookLibary.Web\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Web\\BookLibary.Web\\Repositories\\Repository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvysAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:09:51.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Models\\Book.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:10:53.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Data\\Context\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Data\\Context\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Data\\Context\\MongoDbContext.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Data\\Context\\MongoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:10:11.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Data\\SeedData.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Data\\SeedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:09:39.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookLibaryDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\Migrations\\BookLibaryDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Web\\BookLibary.Web\\Migrations\\BookLibaryDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\Migrations\\BookLibaryDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Web\\BookLibary.Web\\Migrations\\BookLibaryDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:10:04.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MongoSettings.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Models\\MongoSettings.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Models\\MongoSettings.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Models\\MongoSettings.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Models\\MongoSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:09:32.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\appsettings.json",
+              "RelativeToolTip": "Api\\BookLibary.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T14:08:30.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Api\\BookLibary.Api\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Api\\BookLibary.Api\\Services\\BookService.cs",
+              "RelativeToolTip": "Api\\BookLibary.Api\\Services\\BookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:35:56.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\BookLibary.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\Program.cs",
+              "RelativeToolTip": "Web\\BookLibary.Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:34:26.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\BookLibary.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\haluk\\source\\aaab\\BookLibary2\\Web\\BookLibary.Web\\appsettings.json",
+              "RelativeToolTip": "Web\\BookLibary.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T14:08:14.873Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
