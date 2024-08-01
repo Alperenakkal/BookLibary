@@ -1,8 +1,13 @@
-﻿namespace BookLibary.Api.Models
+﻿using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
+
+namespace BookLibary.Api.Models
 {
     public class Book
     {
-        public int Id { get; set; }
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
 
         public string Name { get; set; }
 

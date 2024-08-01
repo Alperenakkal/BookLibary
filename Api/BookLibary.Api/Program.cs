@@ -1,6 +1,7 @@
 using BookLibary.Api.Data.Context;
 using BookLibary.Api.Models;
 using BookLibary.Api.Repositories;
+using BookLibary.Api.Services.AuthServices;
 using BookLibary.Api.Services.AuthServices.LoginServices;
 
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +14,10 @@ builder.Services.AddSingleton<MongoDbContext>();
 builder.Services.AddScoped<IRepository<User>, LoginRepository>();
 
 builder.Services.AddScoped<ILoginService, LoginService>();
+
+
+builder.Services.AddScoped<IRepository<Book>, MongoRepositoryBase<Book>>();
+builder.Services.AddScoped<BookService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
