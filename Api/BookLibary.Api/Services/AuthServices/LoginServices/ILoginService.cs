@@ -1,7 +1,9 @@
-﻿namespace BookLibary.Api.Services.AuthServices.LoginServices
+﻿using BookLibary.Api.Models;
+
+namespace BookLibary.Api.Services.AuthServices.LoginServices
 {
     public interface ILoginService
     {
-        Task<string> GetByNameAsync(string name);
+        Task<User> GetByNameAsync(string name);
     }
 }
