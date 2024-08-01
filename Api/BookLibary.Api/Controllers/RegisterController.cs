@@ -30,7 +30,10 @@ namespace BookLibary.Api.Controllers
             {
                 return BadRequest(new { Message = result });
             }
-
+            if (result == "Şifreler Uyuşmuyor")
+            {
+                return BadRequest(new { Message = result });
+            }
             return Ok(new { Message = "Kayıt başarılı" });
         }
 
