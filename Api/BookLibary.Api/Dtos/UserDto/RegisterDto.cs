@@ -9,6 +9,7 @@ namespace BookLibary.Api.Dtos.UserDto
 
         public string? FullName { get; set; }
         public required string Password { get; set; }
+        public required string PasswordRepeat { get; set; }
         public string ?Email { get; set; }
     }
 }
