@@ -1,5 +1,6 @@
 ﻿
 using BookLibary.Api.Data.Context;
+using BookLibary.Api.Models;
 using MongoDB.Driver;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,12 +10,11 @@ namespace BookLibary.Api.Repositories
     public class LoginRepository<T> : IRepository<T> where T : class
     {
         private readonly MongoDbContext _context;
-        private readonly IMongoCollection<T> _collection;
+        private readonly IMongoCollection<User> _model;
 
         public LoginRepository(MongoDbContext context)
         {
-            _context = context;
-            _collection = _context.GetCollection<T>(typeof(T).Name.ToLower() + "s");
+            _model = context.GetCollection<User>("Users");
         }
 
         public Task CreateAsync(T entity)
@@ -39,8 +39,8 @@ namespace BookLibary.Api.Repositories
 
         public async Task<T> GetByNameAsync(string name)
         {
-            var filter = Builders<T>.Filter.Eq("UserName", name);
-            return await _collection.Find(filter).FirstOrDefaultAsync();
+
+            throw new NotImplementedException();
         }
 
         public Task UpdateAsync(T entity)

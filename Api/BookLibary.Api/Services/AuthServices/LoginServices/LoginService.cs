@@ -15,11 +15,26 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
 
         public async Task<string> GetByNameAsync(string name)
         {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return "Geçersiz kullanıcı adı.";
+            }
+
             var user = await _repository.GetByNameAsync(name);
-            string userName = user.UserName;
-            if (userName == null) { return "Böyle bir kullanici bulunamadi"; }
+
+            if (user == null)
+            {
+                return "Böyle bir kullanıcı bulunamadı.";
+            }
+
+            var userName = user.UserName;
+
+            if (userName == null)
+            {
+                return "Kullanıcı adı bilgisi bulunamadı.";
+            }
+
             return userName;
-            
         }
     }
 }
