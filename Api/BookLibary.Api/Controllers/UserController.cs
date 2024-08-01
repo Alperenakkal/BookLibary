@@ -1,4 +1,5 @@
-﻿using BookLibary.Api.Dtos;
+﻿using Azure.Core;
+using BookLibary.Api.Dtos;
 using BookLibary.Api.Models;
 using BookLibary.Api.Models.Request.UserRequest;
 using BookLibary.Api.Models.Response.UserResponse;
@@ -6,6 +7,8 @@ using BookLibary.Api.Services.AuthServices.LoginServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace BookLibary.Api.Controllers
 {
@@ -14,6 +17,7 @@ namespace BookLibary.Api.Controllers
     public class UserController : ControllerBase
     {
         private readonly ILoginService _service;
+        private string hashPassword;
 
         public UserController(ILoginService service)
         {
@@ -30,11 +34,15 @@ namespace BookLibary.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([FromBody]LoginDto model)
         {
+            SHA1 sha = new SHA1CryptoServiceProvider();
+
+            hashPassword = Convert.ToBase64String(sha.ComputeHash(Encoding.ASCII.GetBytes(model.Password)));
+
             if (model == null || model.UserName == "" || model.Password == "")
             { return BadRequest("İlgili alanlar boş bırakılmaz"); }
             User user = await _service.GetByNameAsync(model.UserName);
             if (user == null) { return BadRequest("Girmis olduğunuz kullanici adi bilgisi yanlistir"); }
-            if (user.Password != model.Password) { return BadRequest("Şifre yanlis"); }
+            if (user.Password != hashPassword) { return BadRequest("Şifre yanlis"); }
             return Ok("Giris islemi basarili");
         }
         [HttpPost("LoginUser")]

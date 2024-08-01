@@ -317,3 +317,4 @@ C:\Users\esman\source\repos\x\BookLibary\Api\BookLibary.Api\obj\Debug\net8.0\Boo
 C:\Users\esman\source\repos\x\BookLibary\Api\BookLibary.Api\obj\Debug\net8.0\BookLibary.Api.genruntimeconfig.cache
 C:\Users\esman\source\repos\x\BookLibary\Api\BookLibary.Api\obj\Debug\net8.0\ref\BookLibary.Api.dll
 >>>>>>> 75b90e34ea102c757571b2ed6af9fe6e1d5bfa41
+C:\Users\esman\source\repos\x\BookLibary\Api\BookLibary.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
