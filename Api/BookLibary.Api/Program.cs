@@ -25,6 +25,7 @@ builder.Services.AddScoped<IRegisterService, RegisterService>();
 
 builder.Services.AddScoped<IRepository<Book>, MongoRepositoryBase<Book>>();
 builder.Services.AddScoped<BookService>();
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

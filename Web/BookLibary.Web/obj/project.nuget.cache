@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t0XBySUuZ5E=",
+  "dgSpecHash": "aY+hVmEkuYs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+  "projectFilePath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\merha\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\merha\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

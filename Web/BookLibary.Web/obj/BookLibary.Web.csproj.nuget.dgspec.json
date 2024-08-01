@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {}
+    "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {
+    "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+        "projectUniqueName": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
         "projectName": "BookLibary.Web",
-        "projectPath": "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
+        "projectPath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\BookLibary.Web.csproj",
         "packagesPath": "C:\\Users\\merha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\merha\\source\\repos\\BookLİbary\\Web\\BookLibary.Web\\obj\\",
+        "outputPath": "C:\\Users\\merha\\OneDrive\\Masaüstü\\proje\\BookLibrary\\Web\\BookLibary.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\merha\\AppData\\Roaming\\NuGet\\NuGet.Config",
