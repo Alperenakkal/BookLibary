@@ -19,7 +19,7 @@ namespace BookLibary.Api.Services.AuthServices.TokenServices
         public Task<GenerateTokenResponse> GenerateToken(GenerateTokenRequest request)
 
         {
-            SymmetricSecurityKey symmetricSecurityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(configuration["AppSettings:Secret"]));
+            SymmetricSecurityKey symmetricSecurityKey = new SymmetricSecurityKey(Encoding.BigEndianUnicode.GetBytes(configuration["AppSettings:Secret"]));
             var dateTimeNow = DateTime.UtcNow;
 
             JwtSecurityToken jwt = new JwtSecurityToken(
