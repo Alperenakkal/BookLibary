@@ -1,0 +1,156 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# NFS stores
+*.nfs*
+
+# Web
+clientbin/
+.vscode/
+node_modules/
+bower_components/
+jspm_packages/
+web.config
+*.log
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+.Elsa
+*.swp
+*.swo
+*.pid
+*.seed
+
+# Visual Studio for Mac
+.vscode/
+.vscode/**/*.code-workspace
+.idea/
+.idea/*.code-workspace
+
+# Rider
+.idea/
+.idea/*.code-workspace
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/**/tasks.xml
+.idea/dictionaries/
+.idea/markdown-navigator/
+.idea/modules.xml
+.idea/moduleSchemas/
+.idea/shelf/
+.idea/tasks.xml
+.idea/workspace.xml
+.idea/_.iml
+
+# Rider Unity
+.idea/assetWorkspace.xml
+.idea/modules.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/editor.xml
+.idea/markdown-navigator.xml
+.idea/templates.xml
+.idea/workspace.xml
+.idea/_.iml
+.idea/.idea_modules.xml
+.idea/tasks.xml
+.idea/modules.xml
+.idea/shelf/
+.idea/workspace.xml
+.idea/_.iml
+
+# Visual Studio
+.vscode/
+.vscode/**/*.code-workspace
+.idea/
+.idea/*.code-workspace
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/**/tasks.xml
+.idea/dictionaries/
+.idea/markdown-navigator/
+.idea/modules.xml
+.idea/moduleSchemas/
+.idea/shelf/
+.idea/tasks.xml
+.idea/workspace.xml
+.idea/_.iml
+
+# Visual Studio Code
+.vscode/
+.vscode/**/*.code-workspace
+.idea/
+.idea/*.code-workspace
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/**/tasks.xml
+.idea/dictionaries/
+.idea/markdown-navigator/
+.idea/modules.xml
+.idea/moduleSchemas/
+.idea/shelf/
+.idea/tasks.xml
+.idea/workspace.xml
+.idea/_.iml
+.idea/.idea_modules.xml
+.idea/tasks.xml
+.idea/modules.xml
+.idea/shelf/
+.idea/workspace.xml
+.idea/_.iml
+
+# VS Code
+.vscode/
+.vscode/**/*.code-workspace
+.idea/
+.idea/*.code-workspace
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/**/tasks.xml
+.idea/dictionaries/
+.idea/markdown-navigator/
+.idea/modules.xml
+.idea/moduleSchemas/
+.idea/shelf/
+.idea/tasks.xml
+.idea/workspace.xml
+.idea/_.iml
+.idea/.idea_modules.xml
+.idea/tasks.xml
+.idea/modules.xml
+.idea/shelf/
+.idea/workspace.xml
+.idea/_.iml

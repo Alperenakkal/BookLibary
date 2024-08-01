@@ -8,6 +8,7 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
     {
         Task<User> GetByNameAsync(string name);
         Task<LoginResponse> LoginUserAsync(LoginRequest request);
+        Task LogoutUserAsync();
 
     }
 }
