@@ -45,6 +45,13 @@ namespace BookLibary.Api.Controllers
 
             return result;
         }
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await _service.LogoutUserAsync();
+            return Ok(new { message = "User logged out successfully." });
+        }
+
 
     }
 }

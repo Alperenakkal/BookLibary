@@ -56,5 +56,14 @@ namespace BookLibary.Api.Services.AuthServices.LoginServices
             }
             return response;
         }
+        public async Task LogoutUserAsync()
+        {
+            var cookieOptions = new CookieOptions
+            {
+                Expires = DateTime.Now.AddDays(-1)
+            };
+            _contextAccessor.HttpContext.Response.Cookies.Append("AuthToken", "", cookieOptions);
+            await Task.CompletedTask;
+        }
     }
 }
