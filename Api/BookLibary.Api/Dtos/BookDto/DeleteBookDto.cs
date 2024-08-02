@@ -1,8 +1,8 @@
-﻿using MongoDB.Bson;
+using MongoDB.Bson;
 
 namespace BookLibary.Api.Dtos.BookDto
 {
-    public class GetByIdBookDto
+    public class DeleteBookDto
     {
         public ObjectId Id { get; set; }
 
