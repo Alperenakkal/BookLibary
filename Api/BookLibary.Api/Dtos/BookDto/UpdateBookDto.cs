@@ -1,13 +1,18 @@
-﻿namespace BookLibary.Api.Dtos.BookDto
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+namespace BookLibary.Api.Dtos.BookDto
 {
     public class UpdateBookDto
     {
-        public int Id { get; set; }
+        [BsonId]
+        public ObjectId Id { get; set; }
+        [BsonElement("BookName")]
 
-        public string Name { get; set; }
+        public string? BookName { get; set; }
 
-        public string Yazar { get; set; }
+        public string? Author { get; set; }
 
-        public int Durum { get; set; }
+        public bool Available { get; set; }
     }
 }
